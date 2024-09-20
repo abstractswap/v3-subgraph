@@ -395,16 +395,16 @@ export function getSubgraphConfig(): SubgraphConfig {
   } else if (selectedNetwork == ABSTRACT_TESTNET) {
     return {
       factoryAddress: '0x2E17FF9b877661bDFEF8879a4B31665157a960F0',
-      stablecoinWrappedNativePoolAddress: '0xef58Ee803C3384630c1A81941840a1C7D0521D58', // WETH/USDC 0.3% pool 
+      stablecoinWrappedNativePoolAddress: '0xef58ee803c3384630c1a81941840a1c7d0521d58', // WETH/USDC 0.3% pool 
       stablecoinIsToken0: false,
-      wrappedNativeAddress: '0x9EDCde0257F2386Ce177C3a7FCdd97787F0D841d', // WETH
+      wrappedNativeAddress: '0x9edcde0257f2386ce177c3a7fcdd97787f0d841d', // WETH
       minimumNativeLocked: BigDecimal.fromString('1'),
       stablecoinAddresses: [
-        '0xe4C7fBB0a626ed208021ccabA6Be1566905E2dFc', // USDC
+        '0xe4c7fbb0a626ed208021ccaba6be1566905e2dfc', // USDC
       ],
       whitelistTokens: [
-        '0x9EDCde0257F2386Ce177C3a7FCdd97787F0D841d', // WETH
-        '0xe4C7fBB0a626ed208021ccabA6Be1566905E2dFc', // USDC
+        '0x9edcde0257f2386ce177c3a7fcdd97787f0d841d', // WETH
+        '0xe4c7fbb0a626ed208021ccaba6be1566905e2dfc', // USDC
       ],
       tokenOverrides: [],
       poolsToSkip: [],
